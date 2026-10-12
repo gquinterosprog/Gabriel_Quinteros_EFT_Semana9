@@ -1,0 +1,7 @@
+OK Formularios reales: alta de estudiante y libro, edición, préstamo y devolución
+OK Stock escrito sin Enter y rechazo de cantidades decimales
+OK Interfaz responde mientras la conexión espera: 1 ms
+OK Navegación por módulos y permisos de la ventana
+OK Ingreso y cierre de sesión mediante los botones de ambos roles
+OK Seis capturas de las ventanas reales
+OK Cerrar el ingreso durante una operación no reabre la aplicación

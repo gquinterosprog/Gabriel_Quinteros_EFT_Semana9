@@ -1,0 +1,3 @@
+MySQL Connector/J 26.7.0 se incluye para compilar y ejecutar sin descargar dependencias.
+Autor Oracle. Licencia GPLv2 con Universal FOSS Exception, según META-INF/LICENSE del JAR.
+El JAR ejecutable incluye la misma dependencia. Su licencia se conserva en META-INF.

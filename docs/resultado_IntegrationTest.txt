@@ -1,0 +1,73 @@
+OK Login con los roles de los scripts
+OK Carlos conserva cuenta 2 y perfil 1
+OK Luis conserva su perfil del poblado
+OK Permisos sobrescritos según el rol
+OK Usuario implementa dos interfaces
+OK Sobrecarga y sobrescritura de resumen
+OK Singleton reutiliza la conexión
+OK Rechaza contraseña incorrecta
+OK Login parametrizado rechaza entrada SQL
+OK Rechaza correo mal formado: a.@
+OK Rechaza correo mal formado: x@y.
+OK Rechaza correo mal formado: x@@y.cl
+OK Rechaza correo mal formado: a[TAB]b@correo.cl
+OK Rechaza correo mal formado: @correo.cl
+OK Rechaza correo mal formado: a@.cl
+OK Rechaza contraseña formada solo por espacios
+OK Cuenta de estudiante sin perfil no inicia sesión
+OK Cuenta sin perfil no consulta préstamos ajenos
+OK Cuenta sin perfil no consulta reportes ajenos
+OK Interpreta correctamente el préstamo oficial pendiente
+OK Conserva diez préstamos oficiales
+OK Categoría: crear, leer y actualizar
+OK Recupera el ID creado aunque MySQL compare nombres sin distinguir tildes
+OK Estudiante: crear, leer, actualizar y conservar contraseña
+OK Rechaza correo duplicado
+OK Rechaza RUT duplicado al editar
+OK Edición rechazada conserva la cuenta anterior
+OK Bibliotecario: crear, leer y actualizar
+OK Protege la cuenta de la sesión
+OK Libro: crear, leer y actualizar stock
+OK Valida ISBN obligatorio
+OK Rechaza ISBN duplicado
+OK Rechaza stock negativo
+OK No presta un libro con stock cero
+OK Solicitud sin stock no crea historial
+OK Estudiante no administra libros
+OK Estudiante no consulta otros perfiles
+OK Estudiante no solicita préstamos ajenos
+OK Préstamo descuenta un ejemplar
+OK El préstamo queda persistido en el historial
+OK Calcula el vencimiento a 14 días
+OK El plazo conserva 14 fechas de calendario al cambiar la hora
+OK El plazo contempla el año bisiesto
+OK Impide duplicar un préstamo activo
+OK No reduce total por debajo de cantidad prestada
+OK Conserva un libro con historial
+OK Conserva un estudiante con préstamos
+OK Estudiante no devuelve préstamos ajenos
+OK Devolución repone stock y conserva el historial
+OK Doble devolución no duplica stock
+OK Historial identifica un préstamo vencido sin devolución
+OK Registra devolución con atraso
+OK Historial propio para estudiantes
+OK Reporte de libros más prestados
+OK Sobrecarga presta al estudiante conectado
+OK Lista del estudiante contiene solo sus préstamos
+OK Reporte activo respeta el estudiante conectado
+OK Reporte activo incluye el préstamo propio
+OK 12 tareas para un ejemplar: un préstamo aceptado, stock cero
+OK Los hilos guardan exactamente un préstamo
+OK Reporte de préstamos activos
+OK Devolución del caso concurrente repone un ejemplar
+OK DAO préstamo: crear, leer y actualizar
+OK DAO préstamo: eliminar
+OK Libro: eliminar sin historial
+OK Estudiante: eliminar perfil y cuenta sin préstamos
+OK Bibliotecario: eliminar
+OK Categoría: eliminar
+OK El plazo cambia de año correctamente
+OK El año 2100 no se considera bisiesto
+OK Devolver en la fecha límite no genera atraso
+OK Detecta atraso al cambiar de año
+RESULTADO: 72 verificaciones aprobadas contra MySQL

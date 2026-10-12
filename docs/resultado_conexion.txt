@@ -1,0 +1,8 @@
+OK El JAR conecta desde el formulario a otro puerto y usuario MySQL
+OK El formulario rechaza un puerto que no es entero
+OK La configuración rechaza un puerto fuera de rango
+OK La contraseña MySQL incorrecta muestra un mensaje específico
+OK Recupera la conexión y abre el catálogo del bibliotecario
+OK Cancelar conserva la conexión comprobada
+OK La conexión permanece al cerrar sesión e ingresar como estudiante
+RESULTADO: conexión del JAR configurable sin recompilar
